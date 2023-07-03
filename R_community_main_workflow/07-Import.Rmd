@@ -12,7 +12,7 @@ knitr::include_graphics(path = "figures/r_script.png", auto_pdf = TRUE)
 ```
 
 Prior to any coding, we will create a new directory, our analysis directory.
-afterwards, reate a new notebook called __"01-Import.ipynb"__ in it. 
+Then create a new notebook called __"01-Import.ipynb"__ in it. 
 We will be creating many notebooks, so we'll number them so we can easily see the order of scripts.
 
 First create a new directory.
