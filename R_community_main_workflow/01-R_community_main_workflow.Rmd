@@ -34,9 +34,9 @@ knitr::include_graphics(path = "figures/R_community.png", auto_pdf = TRUE)
 
 A lot of different analyses and visualisations can be carried out with community data. This includes taxonomy and functional abundance tables from 16S rRNA and Shotgun metagenomics analysis. This workshop will teach you how to use R with the `phyloseq` R object; a specialised object containing an abundance, taxonomy, and metadata table. 
 
-The workshop will use a 16S dataset that has been pre-analysed with QIIME2 to create the ASV table, taxonomy table, and phylogenetic tree.
+The workshop will use a 16S dataset that has been pre-analysed with QIIME2 to create the ASV table, taxonomy table, and phylogenetic tree. Supplementary materials will show how to import Bracken shotgun metagenomic abundance data and generic abundance data frames into a phyloseq object.
  
-The sessions will start with a brief presentation followed by self-paced computer practicals guided by this online interactive book. This book contains theory and practice code. This will be reinforced with multiple choice questions that will recap concepts and aid in interpretation of results.
+The sessions will start with a brief presentation followed by self-paced computer practicals guided by this online interactive book. Thi book contains theory and practice code. This will be reinforced with multiple choice questions that will recap concepts and aid in interpretation of results.
 
 At the end of the course learners will be able to:
 
@@ -47,3 +47,4 @@ At the end of the course learners will be able to:
 - Carry out alpha & beta diversity, and biomarker detection with the phyloseq object.
 - Produce and customise publication quality plots.
 - Run statistical analysis.
+- Convert static plots into interactive html plots with plotly within R.

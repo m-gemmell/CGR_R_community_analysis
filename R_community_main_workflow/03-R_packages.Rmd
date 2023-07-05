@@ -26,7 +26,7 @@ library("package_name")
 
 I generally have a list of `library()` functions at the top of my R scripts (`.R` files) for all the packages I use in the script.
 
-Throughout this course you will get a lot of practice loading various packages.
+Throughout this course you will get a lot of practice installing and loading various packages.
 
 `r hide("R package or R Library?")`
 R packages are a collection of R functions, data, and compiled code. You can install these into a directory on your computer.
@@ -71,7 +71,7 @@ library(ggplot2)
 ggplot2::ggplot(iris, aes(x=Sepal.Length, y=Sepal.Width, colour=Species)) +
   #Make the object a scatter plot 
   ggplot2::geom_point() +
-  #Add plot title
+  #Add plot tile
   ggplot2::ggtitle("Iris Sepal length vs width") +
   #Set x and y axis label names
   ggplot2::labs(x = "Sepal length", y = "Sepal width")
